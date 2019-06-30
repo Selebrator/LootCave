@@ -1,0 +1,11 @@
+main: de.selebrator.lootcave.LootCavePlugin
+name: ${plugin_name}
+version: ${plugin_version}
+author: ${author}
+commands:
+  lootcave:
+    usage: §cIncorrect usage! §7/<command> help
+permissions:
+  lootcave.admin:
+    default: op
+    description: every command

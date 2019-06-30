@@ -1,0 +1,28 @@
+block_empty_chest: false
+message:
+  command:
+    no_permission: "&cI'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is a mistake."
+    reload:
+      success: "&aReloaded LootCave"
+    add:
+      error_location_missing: "Could not determine location"
+      error_file_write: "&cSomething went wrong while saving the chest to the save file!\n&cPossibly not all changes have been applied correctly.\n&cCheck the console for more information."
+      success_new: "Added 1 chest"
+      success_change: "Updated 1 chest"
+    place:
+      error_location_missing: "Could not determine location"
+      error_location_invalid: "There is no lootcave chest registered for that location"
+      success_single: "Placed 1 chest"
+      success_multiple: "Placed %count% chests"
+    remove:
+      error_location_missing: "Could not determine location"
+      error_location_invalid: "There is no lootcave chest registered for that location"
+      error_file_write: "&cSomething went wrong while deleting chests from the save file!\n&cPossibly not all changes have been applied correctly.\n&cCheck the console for more information."
+      success_inventory_single: "Cleared 1 inventory"
+      success_inventory_multiple: "Cleared %count% inventories"
+      success_world_single: "Removed 1 block"
+      success_world_multiple: "Removed %count% blocks"
+      success_file_single: "Removed 1 chest from the save file"
+      success_file_multiple: "Removed %count% chests from the save file"
+  event:
+    chest_already_looted: "You have already looted this chest"
